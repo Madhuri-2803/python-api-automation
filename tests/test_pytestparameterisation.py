@@ -46,5 +46,9 @@ def test_status_result(status_code, expected):
 
   #  user = response.json()
    # assert user["id"] == user_id
+###Note about assert ####
+#assert response.status_code == 200, (
+#f"Expected status code 200, but got {response.status_code}"
+#) (After coma if assertion fails return the meessage)
 
 
